@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.encabezado {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(37, 132, 161);
+    gap: 20px;
+    align-items: center;
+}
+
+.contenedor {
+    width: 500px;
+}
+
+.enlaces {
+    display: inherit;
+    gap: 20px;
+}
+
+.enlaces > * {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.enlaces > *:hover {
+    color: #ff0000;
+    transition: 0.3s;
+}
+
+.titulo {
+    color: #ffffff;
+    font-size: 5rem;
+}
+
+.eslogan {
+    color: #ffffff;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 900px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.cuerpo {
+    background-image: url("wallpaper.jpg");
+}
+
+.container {
+    background-color: #ffffff;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Estilos del pie de pagina */
+
+.instagram, .Twitter, .Facebook{
+    width: 70px;
+    height: auto;
+}
+
+.container2 {
+    display: flex;
+}
+
+.container3 {
+    display: flex;
+}
+
+.pie {
+    background-color: rgb(37, 132, 161);
+    width: 100%;
+    height: 40vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
